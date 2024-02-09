@@ -1,0 +1,81 @@
+* { 
+    margin :0 ; 
+    padding : 0 ;
+    box-sizing: border-box; 
+}
+body { 
+    background-color: hsl(0, 0%, 8%);
+}
+.container { 
+    background-color:hsl(0, 0%, 12%);
+    color :white ; 
+    position: absolute;
+    top :50% ;
+    left :50% ; 
+    transform:translate(-50%,-50%) ; 
+    width: 28%;
+    height:84% ;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.texto { 
+    margin-bottom: 50px;
+    font-family: 'interfont', sans-serif;
+h2{
+    font-size: 30px; 
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+  
+}
+h3 { 
+    font-size: 19px;
+    text-align : center ; 
+    color : hsl(75, 94%, 57%) ; 
+    margin-top: 11px; 
+    font-weight: normal;
+}
+p{
+    margin-top: 20px; 
+    margin-left: 10px ;
+    font-weight: 10;
+}
+.profile-picture {
+    width: 100px; /* Ajustez la taille de la photo de profil selon vos besoins */
+    height: 100px; /* Ajustez la taille de la photo de profil selon vos besoins */
+    border-radius: 50%; /* Pour rendre l'image circulaire */
+    overflow: hidden; /* Pour cacher les parties de l'image qui dépassent du cadre */
+    margin-left :30% ;
+    margin-top: 2%;
+    
+  }
+  
+  .profile-picture img {
+    width: 100%; /* Pour que l'image remplisse entièrement le conteneur */
+    height: 100%; /* Pour que l'image remplisse entièrement le conteneur */
+    object-fit: cover; /* Pour que l'image conserve ses proportions */
+  }
+.bt { 
+    margin-top : 5% ;
+    width : 100% ;
+    padding: 12px 120px;
+    background-color:hsl(0, 0%, 20%) ;
+    color:white ;
+    border-radius: 10px;
+    cursor:pointer;
+    border: black;
+    
+}
+.bt:hover { 
+    color:hsl(0, 0%, 0%) ;
+    background-color : hsl(75, 94%, 57%) ; 
+}
+
+@font-face {
+    font-family: Interfont;
+    src: url(..\fonts\Inter-VariableFont_slnt,wght.ttf);
+}
