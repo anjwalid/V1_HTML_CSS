@@ -68,6 +68,7 @@ p{
     border-radius: 10px;
     cursor:pointer;
     border: black;
+    text-decoration: none;
     
 }
 .bt:hover { 
